@@ -1,0 +1,5 @@
+This is the command I used to compile usage.cpp,
+it should have its own flag under makefile
+
+g++ ../build/*.o -I ../include -I /usr/include/python2.7/ -lssl -lcrypto -lpython2.7 -lboost_python -lpthread -ldl -lutil -std=c++11 main.cpp -o out
+
